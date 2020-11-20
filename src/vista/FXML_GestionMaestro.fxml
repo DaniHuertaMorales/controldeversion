@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="366.0" prefWidth="552.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.FXML_GestionMaestroController">
+    <stylesheets>
+        <URL value="@fxml_gestionusuario.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="agregarMaestro" layoutX="72.0" layoutY="111.0" mnemonicParsing="false" onAction="#agregar" text="Agregar Maestro" />
+      <Button fx:id="eliminarMaestro" layoutX="72.0" layoutY="171.0" mnemonicParsing="false" onAction="#eliminar" text="Eliminar Maestro" />
+      <Button fx:id="actualizarMaestro" layoutX="67.0" layoutY="232.0" mnemonicParsing="false" onAction="#actualizar" text="Actualizar Maestro" />
+      <TableView fx:id="tablaMaestros" layoutX="228.0" layoutY="14.0" prefHeight="334.0" prefWidth="309.0">
+        <columns>
+          <TableColumn fx:id="columnaMatricula" prefWidth="73.0" text="Matricula" />
+          <TableColumn fx:id="columnaNombre" prefWidth="125.0" text="Nombre" />
+            <TableColumn fx:id="columnaContra" prefWidth="110.0" text="Contraseña" />
+        </columns>
+      </TableView>
+      <Button fx:id="botonVolver" layoutX="98.0" layoutY="313.0" mnemonicParsing="false" text="Volver" />
+   </children>
+</AnchorPane>

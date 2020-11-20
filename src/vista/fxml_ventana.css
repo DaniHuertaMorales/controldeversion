@@ -1,0 +1,13 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+#titulo{
+ -fx-font-size: 16px;
+ -fx-font-family: "Arial Black";
+ -fx-text-fill: #ffffff;
+ }
