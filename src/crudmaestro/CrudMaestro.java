@@ -26,6 +26,7 @@ public class CrudMaestro extends Application{
     public static void main(String[] args) {
         //Operaciones op = new Operaciones();
         //op.ejecutarAplicacion();
+        //prueba de modificacion para segundo commit
         launch(args);
     }
 
