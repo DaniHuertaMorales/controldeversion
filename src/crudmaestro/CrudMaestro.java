@@ -28,6 +28,7 @@ public class CrudMaestro extends Application{
         //op.ejecutarAplicacion();
         //prueba de modificacion para segundo commit
         //Prueba again
+        //muy güenas 
         launch(args);
     }
 
